@@ -1,0 +1,95 @@
+name: Update GAHS Calendar
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "15 * * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  update-calendar:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install calendar parser
+        run: pip install icalendar recurring-ical-events
+
+      - name: Download and convert calendar
+        env:
+          CALENDAR_URL: ${{ secrets.GAHS_CALENDAR_ICS_URL }}
+        run: |
+          python <<'PY'
+          import os
+          import json
+          import urllib.request
+          from datetime import datetime, timedelta, timezone
+          from zoneinfo import ZoneInfo
+
+          from icalendar import Calendar
+          import recurring_ical_events
+
+          url = os.environ["CALENDAR_URL"]
+
+          request = urllib.request.Request(
+              url,
+              headers={"User-Agent": "Erins-Personal-Hub"}
+          )
+
+          with urllib.request.urlopen(request, timeout=30) as response:
+              raw = response.read()
+
+          calendar = Calendar.from_ical(raw)
+
+          eastern = ZoneInfo("America/New_York")
+          now = datetime.now(eastern)
+          start = now - timedelta(days=1)
+          end = now + timedelta(days=45)
+
+          components = recurring_ical_events.of(calendar).between(start, end)
+
+          events = []
+
+          for component in components:
+              dtstart = component.decoded("DTSTART")
+              dtend = component.decoded("DTEND") if component.get("DTEND") else None
+
+              def normalize(value):
+                  if isinstance(value, datetime):
+                      if value.tzinfo is None:
+                          value = value.replace(tzinfo=eastern)
+                      return value.astimezone(eastern).isoformat()
+                  return value.isoformat()
+
+              events.append({
+                  "title": str(component.get("SUMMARY", "School Event")),
+                  "start": normalize(dtstart),
+                  "end": normalize(dtend) if dtend else None,
+                  "location": str(component.get("LOCATION", "")),
+                  "allDay": not isinstance(dtstart, datetime)
+              })
+
+          events.sort(key=lambda event: event["start"])
+
+          with open("calendar-events.json", "w", encoding="utf-8") as f:
+              json.dump(events, f, indent=2, ensure_ascii=False)
+
+          print(f"Wrote {len(events)} calendar events.")
+          PY
+
+      - name: Commit updated calendar
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add calendar-events.json
+          git diff --cached --quiet || git commit -m "Update GAHS calendar"
+          git push

@@ -24,6 +24,7 @@ footer{background:var(--navy-dark);color:#cad7df;padding:24px 28px;text-align:ce
 .calendar-launch-panel{display:flex;align-items:center;gap:16px;margin-top:14px;padding:18px;border:1px solid var(--line);border-radius:16px;background:linear-gradient(135deg,#f8fbfc,#eef7f7)}
 .calendar-launch-icon{width:54px;height:54px;border-radius:15px;background:#fff;display:grid;place-items:center;font-size:1.65rem;box-shadow:0 6px 16px rgba(21,54,82,.08);flex:0 0 54px}
 .calendar-launch-panel strong{display:block;color:var(--navy);font-size:.96rem}.calendar-launch-panel p{margin:5px 0 0;color:var(--muted);font-size:.82rem;line-height:1.45}
+.school-events{margin-top:14px;display:grid;gap:10px}.school-event{display:grid;grid-template-columns:76px minmax(0,1fr);gap:12px;align-items:start;padding:12px 13px;border:1px solid var(--line);border-radius:14px;background:#f8fbfc}.school-event-time{color:var(--teal);font-size:.76rem;font-weight:900;line-height:1.25}.school-event-title{color:var(--ink);font-size:.91rem;font-weight:800;line-height:1.3}.school-event-location{margin-top:3px;color:var(--muted);font-size:.76rem;font-weight:650}.calendar-status{margin:12px 0 0;color:var(--muted);font-size:.79rem;line-height:1.45}.calendar-updated{margin-left:6px;color:#8a979f;font-size:.72rem}.school-event.upcoming{background:#fff}.school-event-date{color:var(--navy);font-size:.74rem;font-weight:900;text-transform:uppercase;letter-spacing:.04em}
 </style>
 </head>
 <body>
@@ -65,12 +66,9 @@ footer{background:var(--navy-dark);color:#cad7df;padding:24px 28px;text-align:ce
       </div>
     </article>
     <article class="dashboard-card school-card">
-      <div class="school-top"><div><p class="kicker">What's Happening at GAHS</p><h3>Faculty / Staff Calendar</h3></div><a class="btn navy" href="https://sites.google.com/henrico.k12.va.us/gahsfacultyhub/facultystaff-calendar" target="_blank">Open calendar ↗</a></div>
-      <div class="calendar-launch-panel">
-  <div class="calendar-launch-icon"><span aria-hidden="true">📅</span></div>
-  <div><strong>GAHS Faculty / Staff Calendar</strong><p>The calendar is no longer embedded here, so this Hub will not request network access just to open. Use the button above when you want to view the live school calendar.</p></div>
-</div>
-      <p class="frame-note">If Henrico blocks the embedded view, use “Open calendar” above. Your Hub will still work normally.</p>
+      <div class="school-top"><div><p class="kicker">What's Happening at GAHS</p><h3>Faculty / Staff Calendar</h3></div><a class="btn navy" href="https://sites.google.com/henrico.k12.va.us/gahsfacultyhub/facultystaff-calendar" target="_blank">Open full calendar ↗</a></div>
+      <div id="schoolEvents" class="school-events" aria-live="polite"></div>
+      <p id="calendarStatus" class="calendar-status">Loading today's school events…</p>
     </article>
   </div>
 </section>
@@ -149,6 +147,55 @@ function schoolDayNumber(date){
 }
 function currentDay(){const today=new Date();const override=localStorage.getItem('erinHubOverride:'+keyDate(today));if(override&&override!=='auto'){if(override==='none')return null;return Number(override)}return schoolDayNumber(today)}
 function renderToday(){const now=new Date();const hour=now.getHours();document.getElementById('greeting').textContent=(hour<12?'Good morning':hour<17?'Good afternoon':'Good evening')+', Erin.';document.getElementById('liveDate').textContent=now.toLocaleDateString('en-US',{weekday:'long',month:'long',day:'numeric',year:'numeric'});const day=currentDay();const pill=document.getElementById('dayPill');const label=document.getElementById('dayLabel');const box=document.getElementById('todaySchedule');box.innerHTML='';if(!day){label.textContent=(now.getDay()===0||now.getDay()===6)?'Weekend':'No school / special day';pill.classList.add('weekend');box.innerHTML='<div class="schedule-row plan"><span class="time">TODAY</span><strong>No regular class schedule</strong><span class="schedule-chip">ENJOY</span></div>';return}pill.classList.remove('weekend');label.textContent='DAY '+day;schedule[day].forEach(r=>{const div=document.createElement('div');div.className='schedule-row '+(r[3]||'');div.innerHTML=`<span class="time">${r[0]}</span><span><strong>${r[1]}</strong>${r[2]?`<small> · ${r[2]}</small>`:''}</span><span class="schedule-chip">${r[3]==='lunch'?'LUNCH':r[3]==='jstep'?'JSTEP/HR':r[3]==='plan'?'PLAN':'CLASS'}</span>`;box.appendChild(div)})}
+function parseLocalCalendarValue(value, allDay){
+  if(!value)return null;
+  if(allDay || /^\d{4}-\d{2}-\d{2}$/.test(value)){
+    const [y,m,d]=value.slice(0,10).split('-').map(Number);
+    return new Date(y,m-1,d);
+  }
+  return new Date(value);
+}
+function sameLocalDate(a,b){return a&&b&&a.getFullYear()===b.getFullYear()&&a.getMonth()===b.getMonth()&&a.getDate()===b.getDate()}
+function eventTimeLabel(e){
+  const start=parseLocalCalendarValue(e.start,e.allDay);
+  if(!start)return '';
+  if(e.allDay)return 'ALL DAY';
+  return start.toLocaleTimeString('en-US',{hour:'numeric',minute:'2-digit'});
+}
+function renderSchoolEvents(events){
+  const box=document.getElementById('schoolEvents'),status=document.getElementById('calendarStatus');
+  const today=new Date();
+  const valid=(Array.isArray(events)?events:[]).map(e=>({...e,_start:parseLocalCalendarValue(e.start,e.allDay)})).filter(e=>e._start&&!isNaN(e._start));
+  const todays=valid.filter(e=>sameLocalDate(e._start,today));
+  let showing=todays;
+  let mode='today';
+  if(!showing.length){showing=valid.filter(e=>e._start>=new Date(today.getFullYear(),today.getMonth(),today.getDate()+1)).slice(0,4);mode='upcoming'}
+  box.innerHTML='';
+  if(!showing.length){status.textContent='No school calendar events are listed for today or the next several days.';return}
+  showing.forEach(e=>{
+    const row=document.createElement('div');row.className='school-event'+(mode==='upcoming'?' upcoming':'');
+    const left=document.createElement('div');
+    left.className=mode==='upcoming'?'school-event-date':'school-event-time';
+    left.textContent=mode==='upcoming'?e._start.toLocaleDateString('en-US',{weekday:'short',month:'short',day:'numeric'}).replace(',',''):eventTimeLabel(e);
+    const copy=document.createElement('div');
+    const title=document.createElement('div');title.className='school-event-title';title.textContent=e.title||'School Event';copy.appendChild(title);
+    if(e.location){const loc=document.createElement('div');loc.className='school-event-location';loc.textContent=e.location;copy.appendChild(loc)}
+    row.append(left,copy);box.appendChild(row)
+  });
+  status.textContent=mode==='today'?(todays.length===1?'1 school event today.':`${todays.length} school events today.`):'Nothing listed for today — showing the next school calendar events.';
+}
+async function loadSchoolCalendar(){
+  const status=document.getElementById('calendarStatus');
+  try{
+    const response=await fetch('calendar-events.json',{cache:'no-store'});
+    if(!response.ok)throw new Error('Calendar data unavailable');
+    const events=await response.json();renderSchoolEvents(events);
+  }catch(err){
+    document.getElementById('schoolEvents').innerHTML='';
+    status.innerHTML='The live school calendar has not synced yet. Use <strong>Open full calendar</strong> above, or run the GitHub calendar workflow once.';
+  }
+}
+
 function meetingStorageKey(){return 'erinHubMeetings:'+keyDate(new Date())}
 function getMeetings(){try{return JSON.parse(localStorage.getItem(meetingStorageKey())||'[]')}catch{return[]}}
 function renderMeetings(){const list=document.getElementById('meetingsList'),empty=document.getElementById('meetingsEmpty');const items=getMeetings().sort((a,b)=>a.time.localeCompare(b.time));list.innerHTML='';empty.style.display=items.length?'none':'block';items.forEach((m,i)=>{const li=document.createElement('li');li.className='meeting-item';const displayTime=m.time?new Date('2000-01-01T'+m.time).toLocaleTimeString('en-US',{hour:'numeric',minute:'2-digit'}):'';li.innerHTML=`<span class="meeting-copy"><span class="meeting-time">${displayTime}</span><span class="meeting-title">${escapeHTML(m.title)}</span></span><button class="meeting-delete" aria-label="Delete meeting" data-i="${i}">×</button>`;list.appendChild(li)});list.querySelectorAll('.meeting-delete').forEach(b=>b.onclick=()=>{const arr=items.slice();arr.splice(Number(b.dataset.i),1);localStorage.setItem(meetingStorageKey(),JSON.stringify(arr));renderMeetings()})}
@@ -159,6 +206,6 @@ document.getElementById('saveMeeting').onclick=()=>{const time=document.getEleme
 document.getElementById('saveOverride').onclick=()=>{localStorage.setItem('erinHubOverride:'+keyDate(new Date()),document.getElementById('dayOverride').value);closeModal('settingsModal');renderToday()};
 const cards=[...document.querySelectorAll('.resource-card')];cards.forEach((c,i)=>{const b=document.createElement('button');b.className='favorite-toggle';b.type='button';b.innerHTML='★';b.title='Favorite';const id='fav:'+c.dataset.name;if(localStorage.getItem(id)==='1')b.classList.add('is-favorite');b.onclick=e=>{e.preventDefault();e.stopPropagation();b.classList.toggle('is-favorite');localStorage.setItem(id,b.classList.contains('is-favorite')?'1':'0')};c.appendChild(b)});
 document.getElementById('hubSearch').addEventListener('input',e=>{const q=e.target.value.trim().toLowerCase();let visible=0;cards.forEach(c=>{const show=!q||c.dataset.name.toLowerCase().includes(q)||c.textContent.toLowerCase().includes(q);c.classList.toggle('hidden-card',!show);if(show)visible++});document.querySelectorAll('[data-section]').forEach(s=>{const any=[...s.querySelectorAll('.resource-card')].some(c=>!c.classList.contains('hidden-card'));s.style.display=any?'block':'none'});document.getElementById('emptySearch').style.display=visible?'none':'block'});
-renderToday();renderMeetings();
+renderToday();renderMeetings();loadSchoolCalendar();
 </script>
 </body></html>

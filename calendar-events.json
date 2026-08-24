@@ -299,5 +299,12 @@
     "end": "2026-10-08",
     "location": "",
     "allDay": true
+  },
+  {
+    "title": "Day 1",
+    "start": "2026-10-08",
+    "end": "2026-10-09",
+    "location": "",
+    "allDay": true
   }
 ]

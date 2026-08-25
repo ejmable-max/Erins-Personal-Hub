@@ -306,5 +306,19 @@
     "end": "2026-10-09",
     "location": "",
     "allDay": true
+  },
+  {
+    "title": "Day 2",
+    "start": "2026-10-09",
+    "end": "2026-10-10",
+    "location": "",
+    "allDay": true
+  },
+  {
+    "title": "Homecoming Pep Rally - No JSTEP",
+    "start": "2026-10-09",
+    "end": "2026-10-10",
+    "location": "",
+    "allDay": true
   }
 ]

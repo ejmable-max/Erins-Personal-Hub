@@ -320,5 +320,12 @@
     "end": "2026-10-10",
     "location": "",
     "allDay": true
+  },
+  {
+    "title": "Homecoming Fair",
+    "start": "2026-10-09T17:00:00-04:00",
+    "end": "2026-10-09T18:30:00-04:00",
+    "location": "",
+    "allDay": false
   }
 ]

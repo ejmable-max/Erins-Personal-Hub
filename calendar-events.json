@@ -7,13 +7,6 @@
     "allDay": true
   },
   {
-    "title": "Day 2",
-    "start": "2026-08-26",
-    "end": "2026-08-27",
-    "location": "",
-    "allDay": true
-  },
-  {
     "title": "Day 1",
     "start": "2026-08-27",
     "end": "2026-08-28",
@@ -334,5 +327,12 @@
     "end": "2026-10-10T22:00:00-04:00",
     "location": "Glen Allen High School (10700 Staples Mill Rd, Glen Allen, VA, United States)",
     "allDay": false
+  },
+  {
+    "title": "Day 1",
+    "start": "2026-10-12",
+    "end": "2026-10-13",
+    "location": "",
+    "allDay": true
   }
 ]

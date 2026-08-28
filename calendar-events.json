@@ -7,14 +7,14 @@
     "allDay": true
   },
   {
-    "title": "Day 1",
+    "title": "Homeroom: No Travel JSTEP",
     "start": "2026-08-27",
     "end": "2026-08-28",
     "location": "",
     "allDay": true
   },
   {
-    "title": "Homeroom: No Travel JSTEP",
+    "title": "Day 1",
     "start": "2026-08-27",
     "end": "2026-08-28",
     "location": "",
@@ -26,6 +26,13 @@
     "end": "2026-08-29",
     "location": "",
     "allDay": true
+  },
+  {
+    "title": "Fire Drill",
+    "start": "2026-08-28T13:45:00-04:00",
+    "end": "2026-08-28T14:00:00-04:00",
+    "location": "",
+    "allDay": false
   },
   {
     "title": "Day 1",
@@ -84,14 +91,14 @@
     "allDay": true
   },
   {
-    "title": "Enrollment Count",
+    "title": "Day 1",
     "start": "2026-09-08",
     "end": "2026-09-09",
     "location": "",
     "allDay": true
   },
   {
-    "title": "Day 1",
+    "title": "Enrollment Count",
     "start": "2026-09-08",
     "end": "2026-09-09",
     "location": "",
@@ -147,14 +154,14 @@
     "allDay": true
   },
   {
-    "title": "Day 1",
+    "title": "Homeroom: No Travel JSTEP",
     "start": "2026-09-16",
     "end": "2026-09-17",
     "location": "",
     "allDay": true
   },
   {
-    "title": "Homeroom: No Travel JSTEP",
+    "title": "Day 1",
     "start": "2026-09-16",
     "end": "2026-09-17",
     "location": "",
@@ -238,14 +245,14 @@
     "allDay": true
   },
   {
-    "title": "Day 1",
+    "title": "Safe Schools Training Due",
     "start": "2026-09-30",
     "end": "2026-10-01",
     "location": "",
     "allDay": true
   },
   {
-    "title": "Safe Schools Training Due",
+    "title": "Day 1",
     "start": "2026-09-30",
     "end": "2026-10-01",
     "location": "",

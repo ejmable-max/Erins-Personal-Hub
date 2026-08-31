@@ -348,5 +348,12 @@
     "end": "2026-10-14T19:00:00-04:00",
     "location": "",
     "allDay": false
+  },
+  {
+    "title": "Day 2",
+    "start": "2026-10-15",
+    "end": "2026-10-16",
+    "location": "",
+    "allDay": true
   }
 ]

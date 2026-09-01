@@ -1,5 +1,12 @@
 [
   {
+    "title": "Expectations Assemblies (Schedule In Notes)",
+    "start": "2026-08-31",
+    "end": "2026-09-04",
+    "location": "",
+    "allDay": true
+  },
+  {
     "title": "Day 1",
     "start": "2026-08-31",
     "end": "2026-09-01",
@@ -10,13 +17,6 @@
     "title": "Enrollment Count",
     "start": "2026-08-31",
     "end": "2026-09-01",
-    "location": "",
-    "allDay": true
-  },
-  {
-    "title": "Expectations Assemblies (Schedule In Notes)",
-    "start": "2026-08-31",
-    "end": "2026-09-04",
     "location": "",
     "allDay": true
   },
@@ -133,6 +133,13 @@
     "allDay": true
   },
   {
+    "title": "Life Ready Expo",
+    "start": "2026-09-16T18:00:00-04:00",
+    "end": "2026-09-16T20:00:00-04:00",
+    "location": "Hermitage HS",
+    "allDay": false
+  },
+  {
     "title": "EL Community Night",
     "start": "2026-09-16T18:00:00-04:00",
     "end": "2026-09-16T20:00:00-04:00",
@@ -152,6 +159,13 @@
     "end": "2026-09-19",
     "location": "",
     "allDay": true
+  },
+  {
+    "title": "FT: GA Day",
+    "start": "2026-09-19T08:00:00-04:00",
+    "end": "2026-09-19T19:00:00-04:00",
+    "location": "Crump Park, Mountain Road, Glen Allen, VA, USA",
+    "allDay": false
   },
   {
     "title": "Student & Teacher Holiday: Yom Kippur",
@@ -210,14 +224,14 @@
     "allDay": true
   },
   {
-    "title": "Safe Schools Training Due",
+    "title": "Day 1",
     "start": "2026-09-30",
     "end": "2026-10-01",
     "location": "",
     "allDay": true
   },
   {
-    "title": "Day 1",
+    "title": "Safe Schools Training Due",
     "start": "2026-09-30",
     "end": "2026-10-01",
     "location": "",
@@ -229,6 +243,13 @@
     "end": "2026-10-02",
     "location": "",
     "allDay": true
+  },
+  {
+    "title": "FT: State Fair of VA",
+    "start": "2026-10-01T09:15:00-04:00",
+    "end": "2026-10-01T13:15:00-04:00",
+    "location": "",
+    "allDay": false
   },
   {
     "title": "Day 1",
@@ -245,14 +266,14 @@
     "allDay": true
   },
   {
-    "title": "Day 1",
+    "title": "Homeroom: No Travel JSTEP",
     "start": "2026-10-06",
     "end": "2026-10-07",
     "location": "",
     "allDay": true
   },
   {
-    "title": "Homeroom: No Travel JSTEP",
+    "title": "Day 1",
     "start": "2026-10-06",
     "end": "2026-10-07",
     "location": "",
@@ -353,6 +374,13 @@
     "title": "Day 2",
     "start": "2026-10-15",
     "end": "2026-10-16",
+    "location": "",
+    "allDay": true
+  },
+  {
+    "title": "Day 1",
+    "start": "2026-10-16",
+    "end": "2026-10-17",
     "location": "",
     "allDay": true
   }

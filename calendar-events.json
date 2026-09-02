@@ -7,20 +7,6 @@
     "allDay": true
   },
   {
-    "title": "Day 1",
-    "start": "2026-08-31",
-    "end": "2026-09-01",
-    "location": "",
-    "allDay": true
-  },
-  {
-    "title": "Enrollment Count",
-    "start": "2026-08-31",
-    "end": "2026-09-01",
-    "location": "",
-    "allDay": true
-  },
-  {
     "title": "Day 2",
     "start": "2026-09-01",
     "end": "2026-09-02",
@@ -71,6 +57,13 @@
   },
   {
     "title": "Day 2",
+    "start": "2026-09-09",
+    "end": "2026-09-10",
+    "location": "",
+    "allDay": true
+  },
+  {
+    "title": "Club Fair (Modified Schedule)",
     "start": "2026-09-09",
     "end": "2026-09-10",
     "location": "",

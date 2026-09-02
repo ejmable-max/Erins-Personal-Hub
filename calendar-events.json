@@ -42,14 +42,14 @@
     "allDay": true
   },
   {
-    "title": "Day 1",
+    "title": "Enrollment Count",
     "start": "2026-09-08",
     "end": "2026-09-09",
     "location": "",
     "allDay": true
   },
   {
-    "title": "Enrollment Count",
+    "title": "Day 1",
     "start": "2026-09-08",
     "end": "2026-09-09",
     "location": "",
@@ -75,6 +75,20 @@
     "end": "2026-09-11",
     "location": "",
     "allDay": true
+  },
+  {
+    "title": "Underclassmen Picture Day (Schedule in Notes)",
+    "start": "2026-09-10",
+    "end": "2026-09-12",
+    "location": "",
+    "allDay": true
+  },
+  {
+    "title": "BACK Meeting",
+    "start": "2026-09-10T13:40:00-04:00",
+    "end": "2026-09-10T14:20:00-04:00",
+    "location": "",
+    "allDay": false
   },
   {
     "title": "Back to School Night",

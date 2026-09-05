@@ -1,19 +1,5 @@
 [
   {
-    "title": "Expectations Assemblies (Schedule In Notes)",
-    "start": "2026-08-31",
-    "end": "2026-09-04",
-    "location": "",
-    "allDay": true
-  },
-  {
-    "title": "Day 2",
-    "start": "2026-09-03",
-    "end": "2026-09-04",
-    "location": "",
-    "allDay": true
-  },
-  {
     "title": "No School - Labor Day Weekend",
     "start": "2026-09-04",
     "end": "2026-09-05",
@@ -381,6 +367,13 @@
     "title": "Day 2",
     "start": "2026-10-19",
     "end": "2026-10-20",
+    "location": "",
+    "allDay": true
+  },
+  {
+    "title": "Day 1",
+    "start": "2026-10-20",
+    "end": "2026-10-21",
     "location": "",
     "allDay": true
   }

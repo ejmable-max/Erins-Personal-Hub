@@ -70,14 +70,14 @@
     "allDay": true
   },
   {
-    "title": "Day 1",
+    "title": "Enrollment Count",
     "start": "2026-09-14",
     "end": "2026-09-15",
     "location": "",
     "allDay": true
   },
   {
-    "title": "Enrollment Count",
+    "title": "Day 1",
     "start": "2026-09-14",
     "end": "2026-09-15",
     "location": "",
@@ -91,11 +91,11 @@
     "allDay": true
   },
   {
-    "title": "Homeroom: No Travel JSTEP",
-    "start": "2026-09-16",
-    "end": "2026-09-17",
-    "location": "",
-    "allDay": true
+    "title": "ILT Meeting",
+    "start": "2026-09-15T08:00:00-04:00",
+    "end": "2026-09-15T08:45:00-04:00",
+    "location": "424",
+    "allDay": false
   },
   {
     "title": "Day 1",
@@ -105,17 +105,24 @@
     "allDay": true
   },
   {
-    "title": "Life Ready Expo",
-    "start": "2026-09-16T18:00:00-04:00",
-    "end": "2026-09-16T20:00:00-04:00",
-    "location": "Hermitage HS",
-    "allDay": false
+    "title": "Homeroom: No Travel JSTEP",
+    "start": "2026-09-16",
+    "end": "2026-09-17",
+    "location": "",
+    "allDay": true
   },
   {
     "title": "EL Community Night",
     "start": "2026-09-16T18:00:00-04:00",
     "end": "2026-09-16T20:00:00-04:00",
     "location": "",
+    "allDay": false
+  },
+  {
+    "title": "Life Ready Expo",
+    "start": "2026-09-16T18:00:00-04:00",
+    "end": "2026-09-16T20:00:00-04:00",
+    "location": "Hermitage HS",
     "allDay": false
   },
   {
@@ -355,6 +362,13 @@
     "end": "2026-10-16",
     "location": "",
     "allDay": true
+  },
+  {
+    "title": "ILT",
+    "start": "2026-10-15T16:10:00-04:00",
+    "end": "2026-10-15T17:00:00-04:00",
+    "location": "424",
+    "allDay": false
   },
   {
     "title": "Day 1",

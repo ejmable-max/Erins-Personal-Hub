@@ -28,11 +28,11 @@
     "allDay": true
   },
   {
-    "title": "Club Fair (Modified Schedule)",
-    "start": "2026-09-09",
-    "end": "2026-09-10",
+    "title": "Fire Drill",
+    "start": "2026-09-09T10:30:00-04:00",
+    "end": "2026-09-09T10:45:00-04:00",
     "location": "",
-    "allDay": true
+    "allDay": false
   },
   {
     "title": "Day 1",
@@ -124,6 +124,13 @@
     "end": "2026-09-18",
     "location": "",
     "allDay": true
+  },
+  {
+    "title": "Lock & Teach to Lock & Hide Drill",
+    "start": "2026-09-17T09:30:00-04:00",
+    "end": "2026-09-17T09:50:00-04:00",
+    "location": "",
+    "allDay": false
   },
   {
     "title": "Day 1",

@@ -7,14 +7,14 @@
     "allDay": true
   },
   {
-    "title": "Enrollment Count",
+    "title": "Day 1",
     "start": "2026-09-08",
     "end": "2026-09-09",
     "location": "",
     "allDay": true
   },
   {
-    "title": "Day 1",
+    "title": "Enrollment Count",
     "start": "2026-09-08",
     "end": "2026-09-09",
     "location": "",
@@ -26,13 +26,6 @@
     "end": "2026-09-10",
     "location": "",
     "allDay": true
-  },
-  {
-    "title": "Fire Drill",
-    "start": "2026-09-09T10:30:00-04:00",
-    "end": "2026-09-09T10:45:00-04:00",
-    "location": "",
-    "allDay": false
   },
   {
     "title": "Day 1",
@@ -52,7 +45,7 @@
     "title": "BACK Meeting",
     "start": "2026-09-10T13:40:00-04:00",
     "end": "2026-09-10T14:20:00-04:00",
-    "location": "",
+    "location": "community Room",
     "allDay": false
   },
   {
@@ -70,14 +63,14 @@
     "allDay": true
   },
   {
-    "title": "Enrollment Count",
+    "title": "Day 1",
     "start": "2026-09-14",
     "end": "2026-09-15",
     "location": "",
     "allDay": true
   },
   {
-    "title": "Day 1",
+    "title": "Enrollment Count",
     "start": "2026-09-14",
     "end": "2026-09-15",
     "location": "",
@@ -98,14 +91,14 @@
     "allDay": false
   },
   {
-    "title": "Day 1",
+    "title": "Homeroom: No Travel JSTEP",
     "start": "2026-09-16",
     "end": "2026-09-17",
     "location": "",
     "allDay": true
   },
   {
-    "title": "Homeroom: No Travel JSTEP",
+    "title": "Day 1",
     "start": "2026-09-16",
     "end": "2026-09-17",
     "location": "",

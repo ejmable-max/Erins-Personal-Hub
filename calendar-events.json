@@ -1,19 +1,5 @@
 [
   {
-    "title": "Enrollment Count",
-    "start": "2026-09-08",
-    "end": "2026-09-09",
-    "location": "",
-    "allDay": true
-  },
-  {
-    "title": "Day 1",
-    "start": "2026-09-08",
-    "end": "2026-09-09",
-    "location": "",
-    "allDay": true
-  },
-  {
     "title": "Day 2",
     "start": "2026-09-09",
     "end": "2026-09-10",
@@ -29,6 +15,13 @@
   },
   {
     "title": "Day 1",
+    "start": "2026-09-10",
+    "end": "2026-09-11",
+    "location": "",
+    "allDay": true
+  },
+  {
+    "title": "STAMPS Testing",
     "start": "2026-09-10",
     "end": "2026-09-11",
     "location": "",
@@ -105,17 +98,17 @@
     "allDay": true
   },
   {
-    "title": "EL Community Night",
-    "start": "2026-09-16T18:00:00-04:00",
-    "end": "2026-09-16T20:00:00-04:00",
-    "location": "",
-    "allDay": false
-  },
-  {
     "title": "Life Ready Expo",
     "start": "2026-09-16T18:00:00-04:00",
     "end": "2026-09-16T20:00:00-04:00",
     "location": "Hermitage HS",
+    "allDay": false
+  },
+  {
+    "title": "EL Community Night",
+    "start": "2026-09-16T18:00:00-04:00",
+    "end": "2026-09-16T20:00:00-04:00",
+    "location": "",
     "allDay": false
   },
   {
@@ -245,6 +238,13 @@
     "allDay": true
   },
   {
+    "title": "FT: Marching Band Competition",
+    "start": "2026-10-03T13:00:00-04:00",
+    "end": "2026-10-03T21:00:00-04:00",
+    "location": "Hanover High School (10307 Chamberlayne Rd, Mechanicsville, VA 23116, United States)",
+    "allDay": false
+  },
+  {
     "title": "Day 2",
     "start": "2026-10-05",
     "end": "2026-10-06",
@@ -313,6 +313,13 @@
     "end": "2026-10-13",
     "location": "",
     "allDay": true
+  },
+  {
+    "title": "FT: Henrico County Marching Band Showcase",
+    "start": "2026-10-12T16:30:00-04:00",
+    "end": "2026-10-12T17:00:00-04:00",
+    "location": "Hermitage High School (8301 Hungary Spring Rd, Henrico, VA 23228, United States)",
+    "allDay": false
   },
   {
     "title": "Senior Convocation Practice",

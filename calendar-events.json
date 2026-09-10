@@ -7,13 +7,6 @@
     "allDay": true
   },
   {
-    "title": "SOL Testing",
-    "start": "2026-09-09T09:30:00-04:00",
-    "end": "2026-09-09T12:00:00-04:00",
-    "location": "Room 406",
-    "allDay": false
-  },
-  {
     "title": "Day 1",
     "start": "2026-09-10",
     "end": "2026-09-11",
@@ -131,13 +124,6 @@
     "end": "2026-09-19",
     "location": "",
     "allDay": true
-  },
-  {
-    "title": "FT: GA Day",
-    "start": "2026-09-19T08:00:00-04:00",
-    "end": "2026-09-19T19:00:00-04:00",
-    "location": "Crump Park, Mountain Road, Glen Allen, VA, USA",
-    "allDay": false
   },
   {
     "title": "Student & Teacher Holiday: Yom Kippur",

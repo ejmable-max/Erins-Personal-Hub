@@ -1,19 +1,5 @@
 [
   {
-    "title": "Day 1",
-    "start": "2026-09-10",
-    "end": "2026-09-11",
-    "location": "",
-    "allDay": true
-  },
-  {
-    "title": "STAMPS Testing",
-    "start": "2026-09-10",
-    "end": "2026-09-11",
-    "location": "",
-    "allDay": true
-  },
-  {
     "title": "Underclassmen Picture Day (Schedule in Notes)",
     "start": "2026-09-10",
     "end": "2026-09-12",
@@ -401,6 +387,13 @@
   {
     "title": "FT: ACE Center Visits",
     "start": "2026-10-26",
+    "end": "2026-10-28",
+    "location": "",
+    "allDay": true
+  },
+  {
+    "title": "Day 2",
+    "start": "2026-10-27",
     "end": "2026-10-28",
     "location": "",
     "allDay": true

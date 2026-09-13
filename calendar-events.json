@@ -1,19 +1,5 @@
 [
   {
-    "title": "Underclassmen Picture Day (Schedule in Notes)",
-    "start": "2026-09-10",
-    "end": "2026-09-12",
-    "location": "",
-    "allDay": true
-  },
-  {
-    "title": "Day 2",
-    "start": "2026-09-11",
-    "end": "2026-09-12",
-    "location": "",
-    "allDay": true
-  },
-  {
     "title": "Day 1",
     "start": "2026-09-14",
     "end": "2026-09-15",
@@ -395,6 +381,20 @@
     "title": "Day 2",
     "start": "2026-10-27",
     "end": "2026-10-28",
+    "location": "",
+    "allDay": true
+  },
+  {
+    "title": "Day 1",
+    "start": "2026-10-28",
+    "end": "2026-10-29",
+    "location": "",
+    "allDay": true
+  },
+  {
+    "title": "End of Q1/Student Half-Day/Flexible Staff Clerical Day",
+    "start": "2026-10-28",
+    "end": "2026-10-29",
     "location": "",
     "allDay": true
   }

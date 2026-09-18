@@ -1,19 +1,5 @@
 [
   {
-    "title": "Day 1",
-    "start": "2026-09-16",
-    "end": "2026-09-17",
-    "location": "",
-    "allDay": true
-  },
-  {
-    "title": "Homeroom: No Travel JSTEP",
-    "start": "2026-09-16",
-    "end": "2026-09-17",
-    "location": "",
-    "allDay": true
-  },
-  {
     "title": "Day 2",
     "start": "2026-09-17",
     "end": "2026-09-18",
@@ -444,6 +430,13 @@
     "title": "Day 1",
     "start": "2026-10-30",
     "end": "2026-10-31",
+    "location": "",
+    "allDay": true
+  },
+  {
+    "title": "Schools and Central Offices Closed - Wellness Day",
+    "start": "2026-11-02",
+    "end": "2026-11-03",
     "location": "",
     "allDay": true
   }

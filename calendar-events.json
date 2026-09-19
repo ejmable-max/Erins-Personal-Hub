@@ -1,12 +1,5 @@
 [
   {
-    "title": "Day 2",
-    "start": "2026-09-17",
-    "end": "2026-09-18",
-    "location": "",
-    "allDay": true
-  },
-  {
     "title": "Day 1",
     "start": "2026-09-18",
     "end": "2026-09-19",
@@ -28,14 +21,14 @@
     "allDay": true
   },
   {
-    "title": "ACE Center Visits through HPE 10 Classes",
+    "title": "Day 1",
     "start": "2026-09-23",
     "end": "2026-09-24",
     "location": "",
     "allDay": true
   },
   {
-    "title": "Day 1",
+    "title": "ACE Center Visits through HPE 10 Classes",
     "start": "2026-09-23",
     "end": "2026-09-24",
     "location": "",
@@ -91,14 +84,14 @@
     "allDay": true
   },
   {
-    "title": "Safe Schools Training Due",
+    "title": "Day 1",
     "start": "2026-09-30",
     "end": "2026-10-01",
     "location": "",
     "allDay": true
   },
   {
-    "title": "Day 1",
+    "title": "Safe Schools Training Due",
     "start": "2026-09-30",
     "end": "2026-10-01",
     "location": "",
@@ -147,14 +140,14 @@
     "allDay": true
   },
   {
-    "title": "Homeroom: No Travel JSTEP",
+    "title": "Day 1",
     "start": "2026-10-06",
     "end": "2026-10-07",
     "location": "",
     "allDay": true
   },
   {
-    "title": "Day 1",
+    "title": "Homeroom: No Travel JSTEP",
     "start": "2026-10-06",
     "end": "2026-10-07",
     "location": "",
@@ -238,17 +231,17 @@
     "allDay": true
   },
   {
-    "title": "FT: Visual Arts Center of Richmond",
-    "start": "2026-10-13T09:30:00-04:00",
-    "end": "2026-10-13T12:30:00-04:00",
-    "location": "Visual Arts Center of Richmond (1812 W Main St, Richmond, VA 23220, United States)",
-    "allDay": false
-  },
-  {
     "title": "FT: Jag Heroes & PBIS Top Earners",
     "start": "2026-10-13T09:30:00-04:00",
     "end": "2026-10-13T13:15:00-04:00",
     "location": "Chesterfield Berry Farm",
+    "allDay": false
+  },
+  {
+    "title": "FT: Visual Arts Center of Richmond",
+    "start": "2026-10-13T09:30:00-04:00",
+    "end": "2026-10-13T12:30:00-04:00",
+    "location": "Visual Arts Center of Richmond (1812 W Main St, Richmond, VA 23220, United States)",
     "allDay": false
   },
   {
@@ -420,6 +413,13 @@
     "allDay": false
   },
   {
+    "title": "FT: Diversity, Equity & Inclusion",
+    "start": "2026-10-29T09:15:00-04:00",
+    "end": "2026-10-29T13:15:00-04:00",
+    "location": "Eastern Henrico Recreation Center (1440 N Laburnum Ave, Richmond, VA 23223, United States)",
+    "allDay": false
+  },
+  {
     "title": "Day 1",
     "start": "2026-10-30",
     "end": "2026-10-31",
@@ -430,6 +430,13 @@
     "title": "Schools and Central Offices Closed - Wellness Day",
     "start": "2026-11-02",
     "end": "2026-11-03",
+    "location": "",
+    "allDay": true
+  },
+  {
+    "title": "Election Day - Student Holiday - Teacher PL",
+    "start": "2026-11-03",
+    "end": "2026-11-04",
     "location": "",
     "allDay": true
   }

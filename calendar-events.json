@@ -1,12 +1,5 @@
 [
   {
-    "title": "Day 1",
-    "start": "2026-09-18",
-    "end": "2026-09-19",
-    "location": "",
-    "allDay": true
-  },
-  {
     "title": "Student & Teacher Holiday: Yom Kippur",
     "start": "2026-09-21",
     "end": "2026-09-22",
@@ -437,6 +430,13 @@
     "title": "Election Day - Student Holiday - Teacher PL",
     "start": "2026-11-03",
     "end": "2026-11-04",
+    "location": "",
+    "allDay": true
+  },
+  {
+    "title": "Day 2",
+    "start": "2026-11-04",
+    "end": "2026-11-05",
     "location": "",
     "allDay": true
   }

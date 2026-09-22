@@ -70,14 +70,14 @@
     "allDay": true
   },
   {
-    "title": "Safe Schools Training Due",
+    "title": "Day 1",
     "start": "2026-09-30",
     "end": "2026-10-01",
     "location": "",
     "allDay": true
   },
   {
-    "title": "Day 1",
+    "title": "Safe Schools Training Due",
     "start": "2026-09-30",
     "end": "2026-10-01",
     "location": "",
@@ -217,17 +217,17 @@
     "allDay": true
   },
   {
-    "title": "FT: Jag Heroes & PBIS Top Earners",
-    "start": "2026-10-13T09:30:00-04:00",
-    "end": "2026-10-13T13:15:00-04:00",
-    "location": "Chesterfield Berry Farm",
-    "allDay": false
-  },
-  {
     "title": "FT: Visual Arts Center of Richmond",
     "start": "2026-10-13T09:30:00-04:00",
     "end": "2026-10-13T12:30:00-04:00",
     "location": "Visual Arts Center of Richmond (1812 W Main St, Richmond, VA 23220, United States)",
+    "allDay": false
+  },
+  {
+    "title": "FT: Jag Heroes & PBIS Top Earners",
+    "start": "2026-10-13T09:30:00-04:00",
+    "end": "2026-10-13T13:15:00-04:00",
+    "location": "Chesterfield Berry Farm",
     "allDay": false
   },
   {

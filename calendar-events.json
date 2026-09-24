@@ -1,12 +1,5 @@
 [
   {
-    "title": "Day 2",
-    "start": "2026-09-22",
-    "end": "2026-09-23",
-    "location": "",
-    "allDay": true
-  },
-  {
     "title": "Day 1",
     "start": "2026-09-23",
     "end": "2026-09-24",
@@ -119,14 +112,14 @@
     "allDay": true
   },
   {
-    "title": "Homeroom: No Travel JSTEP",
+    "title": "Day 1",
     "start": "2026-10-06",
     "end": "2026-10-07",
     "location": "",
     "allDay": true
   },
   {
-    "title": "Day 1",
+    "title": "Homeroom: No Travel JSTEP",
     "start": "2026-10-06",
     "end": "2026-10-07",
     "location": "",
@@ -210,17 +203,17 @@
     "allDay": true
   },
   {
-    "title": "FT: Jag Heroes & PBIS Top Earners",
-    "start": "2026-10-13T09:30:00-04:00",
-    "end": "2026-10-13T13:15:00-04:00",
-    "location": "Chesterfield Berry Farm",
-    "allDay": false
-  },
-  {
     "title": "FT: Visual Arts Center of Richmond",
     "start": "2026-10-13T09:30:00-04:00",
     "end": "2026-10-13T12:30:00-04:00",
     "location": "Visual Arts Center of Richmond (1812 W Main St, Richmond, VA 23220, United States)",
+    "allDay": false
+  },
+  {
+    "title": "FT: Jag Heroes & PBIS Top Earners",
+    "start": "2026-10-13T09:30:00-04:00",
+    "end": "2026-10-13T13:15:00-04:00",
+    "location": "Chesterfield Berry Farm",
     "allDay": false
   },
   {

@@ -7,13 +7,6 @@
     "allDay": true
   },
   {
-    "title": "Faculty Meeting",
-    "start": "2026-09-24T16:00:00-04:00",
-    "end": "2026-09-24T17:00:00-04:00",
-    "location": "",
-    "allDay": false
-  },
-  {
     "title": "Day 1",
     "start": "2026-09-25",
     "end": "2026-09-26",

@@ -1,12 +1,5 @@
 [
   {
-    "title": "Day 2",
-    "start": "2026-09-24",
-    "end": "2026-09-25",
-    "location": "",
-    "allDay": true
-  },
-  {
     "title": "Day 1",
     "start": "2026-09-25",
     "end": "2026-09-26",
@@ -409,6 +402,13 @@
     "title": "Student & Teacher Holiday - Diwali",
     "start": "2026-11-09",
     "end": "2026-11-10",
+    "location": "",
+    "allDay": true
+  },
+  {
+    "title": "Day 1",
+    "start": "2026-11-10",
+    "end": "2026-11-11",
     "location": "",
     "allDay": true
   }

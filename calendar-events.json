@@ -1,13 +1,13 @@
 [
   {
-    "title": "Student Holiday - Teacher PL",
+    "title": "Math & Science PL @ GAHS",
     "start": "2026-09-28",
     "end": "2026-09-29",
     "location": "",
     "allDay": true
   },
   {
-    "title": "Math & Science PL @ GAHS",
+    "title": "Student Holiday - Teacher PL",
     "start": "2026-09-28",
     "end": "2026-09-29",
     "location": "",
@@ -98,6 +98,13 @@
     "allDay": true
   },
   {
+    "title": "Choral Concert",
+    "start": "2026-10-06T19:00:00-04:00",
+    "end": "2026-10-06T20:00:00-04:00",
+    "location": "",
+    "allDay": false
+  },
+  {
     "title": "Day 2",
     "start": "2026-10-07",
     "end": "2026-10-08",
@@ -109,6 +116,13 @@
     "start": "2026-10-07T08:00:00-04:00",
     "end": "2026-10-07T08:45:00-04:00",
     "location": "library",
+    "allDay": false
+  },
+  {
+    "title": "Powderpuff Games",
+    "start": "2026-10-07T18:00:00-04:00",
+    "end": "2026-10-07T20:00:00-04:00",
+    "location": "",
     "allDay": false
   },
   {
@@ -175,17 +189,17 @@
     "allDay": true
   },
   {
-    "title": "FT: Visual Arts Center of Richmond",
-    "start": "2026-10-13T09:30:00-04:00",
-    "end": "2026-10-13T12:30:00-04:00",
-    "location": "Visual Arts Center of Richmond (1812 W Main St, Richmond, VA 23220, United States)",
-    "allDay": false
-  },
-  {
     "title": "FT: Jag Heroes & PBIS Top Earners",
     "start": "2026-10-13T09:30:00-04:00",
     "end": "2026-10-13T13:15:00-04:00",
     "location": "Chesterfield Berry Farm",
+    "allDay": false
+  },
+  {
+    "title": "FT: Visual Arts Center of Richmond",
+    "start": "2026-10-13T09:30:00-04:00",
+    "end": "2026-10-13T12:30:00-04:00",
+    "location": "Visual Arts Center of Richmond (1812 W Main St, Richmond, VA 23220, United States)",
     "allDay": false
   },
   {
@@ -264,6 +278,13 @@
     "end": "2026-10-21",
     "location": "",
     "allDay": true
+  },
+  {
+    "title": "Band & Orchestra Concert",
+    "start": "2026-10-20T19:00:00-04:00",
+    "end": "2026-10-20T20:30:00-04:00",
+    "location": "",
+    "allDay": false
   },
   {
     "title": "Day 2",

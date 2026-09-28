@@ -411,5 +411,12 @@
     "end": "2026-11-12",
     "location": "",
     "allDay": true
+  },
+  {
+    "title": "Day 1",
+    "start": "2026-11-12",
+    "end": "2026-11-13",
+    "location": "",
+    "allDay": true
   }
 ]

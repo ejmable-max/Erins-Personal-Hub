@@ -1,19 +1,5 @@
 [
   {
-    "title": "Day 1",
-    "start": "2026-09-30",
-    "end": "2026-10-01",
-    "location": "",
-    "allDay": true
-  },
-  {
-    "title": "Safe Schools Training Due",
-    "start": "2026-09-30",
-    "end": "2026-10-01",
-    "location": "",
-    "allDay": true
-  },
-  {
     "title": "Day 2",
     "start": "2026-10-01",
     "end": "2026-10-02",
@@ -444,6 +430,13 @@
     "title": "Day 2",
     "start": "2026-11-13",
     "end": "2026-11-14",
+    "location": "",
+    "allDay": true
+  },
+  {
+    "title": "Day 1",
+    "start": "2026-11-16",
+    "end": "2026-11-17",
     "location": "",
     "allDay": true
   }

@@ -28,14 +28,14 @@
     "allDay": true
   },
   {
-    "title": "Homeroom: No Travel JSTEP",
+    "title": "Day 1",
     "start": "2026-10-06",
     "end": "2026-10-07",
     "location": "",
     "allDay": true
   },
   {
-    "title": "Day 1",
+    "title": "Homeroom: No Travel JSTEP",
     "start": "2026-10-06",
     "end": "2026-10-07",
     "location": "",
@@ -409,6 +409,13 @@
     "title": "Day 1",
     "start": "2026-11-10",
     "end": "2026-11-11",
+    "location": "",
+    "allDay": true
+  },
+  {
+    "title": "English 10 Testing (Literary)",
+    "start": "2026-11-10",
+    "end": "2026-11-14",
     "location": "",
     "allDay": true
   },

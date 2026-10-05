@@ -21,6 +21,13 @@
     "allDay": true
   },
   {
+    "title": "ExEd Lunch and Learn: PLOP to Practice",
+    "start": "2026-10-06T11:35:00-04:00",
+    "end": "2026-10-06T13:40:00-04:00",
+    "location": "Community Room",
+    "allDay": false
+  },
+  {
     "title": "Choral Concert",
     "start": "2026-10-06T19:00:00-04:00",
     "end": "2026-10-06T20:00:00-04:00",
@@ -105,14 +112,14 @@
     "allDay": false
   },
   {
-    "title": "Day 2",
+    "title": "Senior Convocation Practice",
     "start": "2026-10-13",
     "end": "2026-10-14",
     "location": "",
     "allDay": true
   },
   {
-    "title": "Senior Convocation Practice",
+    "title": "Day 2",
     "start": "2026-10-13",
     "end": "2026-10-14",
     "location": "",
@@ -130,6 +137,13 @@
     "start": "2026-10-13T09:30:00-04:00",
     "end": "2026-10-13T12:30:00-04:00",
     "location": "Visual Arts Center of Richmond (1812 W Main St, Richmond, VA 23220, United States)",
+    "allDay": false
+  },
+  {
+    "title": "ExEd Lunch and Learn: Beyond the Label: SLD & OHI",
+    "start": "2026-10-13T11:35:00-04:00",
+    "end": "2026-10-13T13:40:00-04:00",
+    "location": "Community Room",
     "allDay": false
   },
   {
@@ -217,6 +231,13 @@
     "allDay": true
   },
   {
+    "title": "ExEd Lunch and Learn: Beyond the Label: Aut, ED, and ID",
+    "start": "2026-10-20T11:35:00-04:00",
+    "end": "2026-10-20T13:40:00-04:00",
+    "location": "Community Room",
+    "allDay": false
+  },
+  {
     "title": "Band & Orchestra Concert",
     "start": "2026-10-20T19:00:00-04:00",
     "end": "2026-10-20T20:30:00-04:00",
@@ -291,6 +312,13 @@
     "start": "2026-10-27T11:30:00-04:00",
     "end": "2026-10-27T13:00:00-04:00",
     "location": "ACE Center at Hermitage",
+    "allDay": false
+  },
+  {
+    "title": "ExEd Lunch and Learn: Access Granted!",
+    "start": "2026-10-27T11:35:00-04:00",
+    "end": "2026-10-27T13:40:00-04:00",
+    "location": "Community Room",
     "allDay": false
   },
   {
@@ -463,8 +491,8 @@
   },
   {
     "title": "JagFest",
-    "start": "2026-11-18T16:00:00-05:00",
-    "end": "2026-11-18T20:00:00-05:00",
+    "start": "2026-11-18T17:30:00-05:00",
+    "end": "2026-11-18T19:30:00-05:00",
     "location": "",
     "allDay": false
   },

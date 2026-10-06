@@ -7,14 +7,14 @@
     "allDay": true
   },
   {
-    "title": "Homeroom: No Travel JSTEP",
+    "title": "Day 1",
     "start": "2026-10-06",
     "end": "2026-10-07",
     "location": "",
     "allDay": true
   },
   {
-    "title": "Day 1",
+    "title": "Homeroom: No Travel JSTEP",
     "start": "2026-10-06",
     "end": "2026-10-07",
     "location": "",
@@ -25,6 +25,13 @@
     "start": "2026-10-06T11:35:00-04:00",
     "end": "2026-10-06T13:40:00-04:00",
     "location": "Community Room",
+    "allDay": false
+  },
+  {
+    "title": "Homeroom Lesson: PSAT Setup and/or Digital Citizenship",
+    "start": "2026-10-06T13:45:00-04:00",
+    "end": "2026-10-06T14:20:00-04:00",
+    "location": "",
     "allDay": false
   },
   {
@@ -126,17 +133,17 @@
     "allDay": true
   },
   {
-    "title": "FT: Jag Heroes & PBIS Top Earners",
-    "start": "2026-10-13T09:30:00-04:00",
-    "end": "2026-10-13T13:15:00-04:00",
-    "location": "Chesterfield Berry Farm",
-    "allDay": false
-  },
-  {
     "title": "FT: Visual Arts Center of Richmond",
     "start": "2026-10-13T09:30:00-04:00",
     "end": "2026-10-13T12:30:00-04:00",
     "location": "Visual Arts Center of Richmond (1812 W Main St, Richmond, VA 23220, United States)",
+    "allDay": false
+  },
+  {
+    "title": "FT: Jag Heroes & PBIS Top Earners",
+    "start": "2026-10-13T09:30:00-04:00",
+    "end": "2026-10-13T13:15:00-04:00",
+    "location": "Chesterfield Berry Farm",
     "allDay": false
   },
   {
@@ -235,6 +242,13 @@
     "start": "2026-10-20T11:35:00-04:00",
     "end": "2026-10-20T13:40:00-04:00",
     "location": "Community Room",
+    "allDay": false
+  },
+  {
+    "title": "Homeroom: Complete Digital Citizenship Lesson if not done on 10/6",
+    "start": "2026-10-20T13:45:00-04:00",
+    "end": "2026-10-20T14:20:00-04:00",
+    "location": "",
     "allDay": false
   },
   {
@@ -483,16 +497,16 @@
     "allDay": true
   },
   {
-    "title": "MAKEUP English 10 Testing (Literary)",
+    "title": "Homeroom: No Travel JSTEP",
     "start": "2026-11-18",
-    "end": "2026-11-20",
+    "end": "2026-11-19",
     "location": "",
     "allDay": true
   },
   {
-    "title": "Homeroom: No Travel JSTEP",
+    "title": "MAKEUP English 10 Testing (Literary)",
     "start": "2026-11-18",
-    "end": "2026-11-19",
+    "end": "2026-11-20",
     "location": "",
     "allDay": true
   },

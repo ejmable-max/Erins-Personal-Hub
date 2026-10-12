@@ -7,20 +7,6 @@
     "allDay": true
   },
   {
-    "title": "FT: Henrico County Marching Band Showcase",
-    "start": "2026-10-12T16:30:00-04:00",
-    "end": "2026-10-12T17:00:00-04:00",
-    "location": "Hermitage High School (8301 Hungary Spring Rd, Henrico, VA 23228, United States)",
-    "allDay": false
-  },
-  {
-    "title": "Senior Convocation Practice",
-    "start": "2026-10-13",
-    "end": "2026-10-14",
-    "location": "",
-    "allDay": true
-  },
-  {
     "title": "Day 2",
     "start": "2026-10-13",
     "end": "2026-10-14",
@@ -39,6 +25,13 @@
     "start": "2026-10-13T09:30:00-04:00",
     "end": "2026-10-13T13:15:00-04:00",
     "location": "Chesterfield Berry Farm",
+    "allDay": false
+  },
+  {
+    "title": "Senior Convocation Practice",
+    "start": "2026-10-13T10:00:00-04:00",
+    "end": "2026-10-13T11:30:00-04:00",
+    "location": "",
     "allDay": false
   },
   {
@@ -186,6 +179,13 @@
     "start": "2026-10-22T09:30:00-04:00",
     "end": "2026-10-22T14:00:00-04:00",
     "location": "room 406",
+    "allDay": false
+  },
+  {
+    "title": "Interim Safety Audit",
+    "start": "2026-10-22T12:30:00-04:00",
+    "end": "2026-10-22T16:00:00-04:00",
+    "location": "",
     "allDay": false
   },
   {

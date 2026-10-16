@@ -1,19 +1,5 @@
 [
   {
-    "title": "Day 1",
-    "start": "2026-10-14",
-    "end": "2026-10-15",
-    "location": "",
-    "allDay": true
-  },
-  {
-    "title": "PSAT Testing & Convocation - Altered Bell Schedule",
-    "start": "2026-10-14",
-    "end": "2026-10-15",
-    "location": "",
-    "allDay": true
-  },
-  {
     "title": "Day 2",
     "start": "2026-10-15",
     "end": "2026-10-16",
@@ -395,6 +381,13 @@
     "title": "Schools Closed - Thanksgiving Holiday",
     "start": "2026-11-25",
     "end": "2026-11-28",
+    "location": "",
+    "allDay": true
+  },
+  {
+    "title": "Day 2",
+    "start": "2026-11-30",
+    "end": "2026-12-01",
     "location": "",
     "allDay": true
   }

@@ -1,12 +1,5 @@
 [
   {
-    "title": "Day 2",
-    "start": "2026-10-15",
-    "end": "2026-10-16",
-    "location": "",
-    "allDay": true
-  },
-  {
     "title": "Day 1",
     "start": "2026-10-16",
     "end": "2026-10-17",
@@ -381,6 +374,13 @@
     "title": "Day 2",
     "start": "2026-11-30",
     "end": "2026-12-01",
+    "location": "",
+    "allDay": true
+  },
+  {
+    "title": "Day 1",
+    "start": "2026-12-01",
+    "end": "2026-12-02",
     "location": "",
     "allDay": true
   }

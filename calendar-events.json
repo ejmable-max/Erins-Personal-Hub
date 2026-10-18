@@ -1,12 +1,5 @@
 [
   {
-    "title": "Day 1",
-    "start": "2026-10-16",
-    "end": "2026-10-17",
-    "location": "",
-    "allDay": true
-  },
-  {
     "title": "Day 2",
     "start": "2026-10-19",
     "end": "2026-10-20",
@@ -374,6 +367,20 @@
     "title": "Day 1",
     "start": "2026-12-01",
     "end": "2026-12-02",
+    "location": "",
+    "allDay": true
+  },
+  {
+    "title": "Day 2",
+    "start": "2026-12-02",
+    "end": "2026-12-03",
+    "location": "",
+    "allDay": true
+  },
+  {
+    "title": "No Travel JSTEP",
+    "start": "2026-12-02",
+    "end": "2026-12-03",
     "location": "",
     "allDay": true
   }

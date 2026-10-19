@@ -390,5 +390,12 @@
     "end": "2026-12-02T13:00:00-05:00",
     "location": "",
     "allDay": false
+  },
+  {
+    "title": "Day 1",
+    "start": "2026-12-03",
+    "end": "2026-12-04",
+    "location": "",
+    "allDay": true
   }
 ]

@@ -189,14 +189,14 @@
     "allDay": true
   },
   {
-    "title": "Homeroom: No Travel JSTEP",
+    "title": "Day 1",
     "start": "2026-11-05",
     "end": "2026-11-06",
     "location": "",
     "allDay": true
   },
   {
-    "title": "Day 1",
+    "title": "Homeroom: No Travel JSTEP",
     "start": "2026-11-05",
     "end": "2026-11-06",
     "location": "",
@@ -306,6 +306,13 @@
     "end": "2026-11-20",
     "location": "",
     "allDay": true
+  },
+  {
+    "title": "Homeroom: Digital Citizenship Lesson",
+    "start": "2026-11-18T13:45:00-05:00",
+    "end": "2026-11-18T14:20:00-05:00",
+    "location": "",
+    "allDay": false
   },
   {
     "title": "JagFest",

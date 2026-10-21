@@ -14,20 +14,6 @@
     "allDay": true
   },
   {
-    "title": "ExEd Lunch and Learn: Beyond the Label: Aut, ED, and ID",
-    "start": "2026-10-20T11:35:00-04:00",
-    "end": "2026-10-20T13:40:00-04:00",
-    "location": "Community Room",
-    "allDay": false
-  },
-  {
-    "title": "Homeroom: Complete Digital Citizenship Lesson if not done on 10/6",
-    "start": "2026-10-20T13:45:00-04:00",
-    "end": "2026-10-20T14:20:00-04:00",
-    "location": "",
-    "allDay": false
-  },
-  {
     "title": "Band & Orchestra Concert",
     "start": "2026-10-20T19:00:00-04:00",
     "end": "2026-10-20T20:30:00-04:00",
@@ -189,6 +175,13 @@
     "allDay": true
   },
   {
+    "title": "Q1 Grades due for Store #1 by 3:30 PM",
+    "start": "2026-11-05",
+    "end": "2026-11-06",
+    "location": "",
+    "allDay": true
+  },
+  {
     "title": "Day 1",
     "start": "2026-11-05",
     "end": "2026-11-06",
@@ -253,6 +246,13 @@
   },
   {
     "title": "Day 2",
+    "start": "2026-11-13",
+    "end": "2026-11-14",
+    "location": "",
+    "allDay": true
+  },
+  {
+    "title": "Q1 Grades due for FINAL store by 3:00PM",
     "start": "2026-11-13",
     "end": "2026-11-14",
     "location": "",

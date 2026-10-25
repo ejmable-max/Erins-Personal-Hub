@@ -1,12 +1,5 @@
 [
   {
-    "title": "Day 2",
-    "start": "2026-10-23",
-    "end": "2026-10-24",
-    "location": "",
-    "allDay": true
-  },
-  {
     "title": "Day 1",
     "start": "2026-10-26",
     "end": "2026-10-27",
@@ -373,6 +366,20 @@
   {
     "title": "Math SOL Remediation",
     "start": "2026-12-08",
+    "end": "2026-12-10",
+    "location": "",
+    "allDay": true
+  },
+  {
+    "title": "Day 1",
+    "start": "2026-12-09",
+    "end": "2026-12-10",
+    "location": "",
+    "allDay": true
+  },
+  {
+    "title": "Homeroom: No Travel JSTEP",
+    "start": "2026-12-09",
     "end": "2026-12-10",
     "location": "",
     "allDay": true

@@ -383,5 +383,19 @@
     "end": "2026-12-10",
     "location": "",
     "allDay": true
+  },
+  {
+    "title": "Day 2",
+    "start": "2026-12-10",
+    "end": "2026-12-11",
+    "location": "",
+    "allDay": true
+  },
+  {
+    "title": "Testing: Math SOL",
+    "start": "2026-12-10",
+    "end": "2026-12-11",
+    "location": "",
+    "allDay": true
   }
 ]

@@ -397,5 +397,12 @@
     "end": "2026-12-11",
     "location": "",
     "allDay": true
+  },
+  {
+    "title": "FT: Art Dept Washington DC",
+    "start": "2026-12-10T07:00:00-05:00",
+    "end": "2026-12-10T18:30:00-05:00",
+    "location": "",
+    "allDay": false
   }
 ]

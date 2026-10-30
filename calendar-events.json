@@ -14,13 +14,6 @@
     "allDay": true
   },
   {
-    "title": "FT: HCPS Challenger Day",
-    "start": "2026-10-29T08:30:00-04:00",
-    "end": "2026-10-29T14:00:00-04:00",
-    "location": "Tuckahoe Little League (2400 Little League Dr, Henrico, VA 23233, United States)",
-    "allDay": false
-  },
-  {
     "title": "Day 1",
     "start": "2026-10-30",
     "end": "2026-10-31",
@@ -54,6 +47,13 @@
     "end": "2026-11-05",
     "location": "",
     "allDay": true
+  },
+  {
+    "title": "Workkeys Testing - Seniors",
+    "start": "2026-11-04T10:00:00-05:00",
+    "end": "2026-11-04T11:30:00-05:00",
+    "location": "room 406",
+    "allDay": false
   },
   {
     "title": "Homeroom: No Travel JSTEP",

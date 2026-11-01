@@ -1,12 +1,5 @@
 [
   {
-    "title": "Day 1",
-    "start": "2026-10-30",
-    "end": "2026-10-31",
-    "location": "",
-    "allDay": true
-  },
-  {
     "title": "Schools and Central Offices Closed - Wellness Day",
     "start": "2026-11-02",
     "end": "2026-11-03",
@@ -367,6 +360,20 @@
     "title": "Day 1",
     "start": "2026-12-15",
     "end": "2026-12-16",
+    "location": "",
+    "allDay": true
+  },
+  {
+    "title": "Day 2",
+    "start": "2026-12-16",
+    "end": "2026-12-17",
+    "location": "",
+    "allDay": true
+  },
+  {
+    "title": "No Travel JSTEP",
+    "start": "2026-12-16",
+    "end": "2026-12-17",
     "location": "",
     "allDay": true
   }

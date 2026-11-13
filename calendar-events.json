@@ -1,12 +1,5 @@
 [
   {
-    "title": "Day 2",
-    "start": "2026-11-11",
-    "end": "2026-11-12",
-    "location": "",
-    "allDay": true
-  },
-  {
     "title": "Day 1",
     "start": "2026-11-12",
     "end": "2026-11-13",
@@ -35,16 +28,16 @@
     "allDay": false
   },
   {
-    "title": "English 10 Testing (Literary)",
+    "title": "Day 1",
     "start": "2026-11-16",
-    "end": "2026-11-18",
+    "end": "2026-11-17",
     "location": "",
     "allDay": true
   },
   {
-    "title": "Day 1",
+    "title": "English 10 Testing (Literary)",
     "start": "2026-11-16",
-    "end": "2026-11-17",
+    "end": "2026-11-18",
     "location": "",
     "allDay": true
   },
@@ -224,14 +217,14 @@
     "allDay": true
   },
   {
-    "title": "FT: Henrico Christmas Mother Warehouse",
+    "title": "FT: JA Finance Park",
     "start": "2026-12-03T09:15:00-05:00",
     "end": "2026-12-03T13:15:00-05:00",
     "location": "",
     "allDay": false
   },
   {
-    "title": "FT: JA Finance Park",
+    "title": "FT: Henrico Christmas Mother Warehouse",
     "start": "2026-12-03T09:15:00-05:00",
     "end": "2026-12-03T13:15:00-05:00",
     "location": "",
@@ -322,6 +315,13 @@
     "allDay": true
   },
   {
+    "title": "FT: Engineering to HCMS",
+    "start": "2026-12-11T10:00:00-05:00",
+    "end": "2026-12-11T13:00:00-05:00",
+    "location": "",
+    "allDay": false
+  },
+  {
     "title": "Day 2",
     "start": "2026-12-14",
     "end": "2026-12-15",
@@ -381,6 +381,13 @@
     "title": "Schools Closed - Winter Break",
     "start": "2026-12-21",
     "end": "2026-12-26",
+    "location": "",
+    "allDay": true
+  },
+  {
+    "title": "Schools Closed - Winter Break",
+    "start": "2026-12-28",
+    "end": "2027-01-02",
     "location": "",
     "allDay": true
   }

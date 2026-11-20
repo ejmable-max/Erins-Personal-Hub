@@ -1,19 +1,5 @@
 [
   {
-    "title": "Day 1",
-    "start": "2026-11-18",
-    "end": "2026-11-19",
-    "location": "",
-    "allDay": true
-  },
-  {
-    "title": "Homeroom: No Travel JSTEP",
-    "start": "2026-11-18",
-    "end": "2026-11-19",
-    "location": "",
-    "allDay": true
-  },
-  {
     "title": "Day 2",
     "start": "2026-11-19",
     "end": "2026-11-20",
@@ -332,6 +318,13 @@
     "title": "Schools Closed - Winter Break",
     "start": "2026-12-28",
     "end": "2027-01-02",
+    "location": "",
+    "allDay": true
+  },
+  {
+    "title": "Day 1",
+    "start": "2027-01-04",
+    "end": "2027-01-05",
     "location": "",
     "allDay": true
   }

@@ -1,19 +1,5 @@
 [
   {
-    "title": "Day 2",
-    "start": "2026-11-19",
-    "end": "2026-11-20",
-    "location": "",
-    "allDay": true
-  },
-  {
-    "title": "Winter Sports Pictures",
-    "start": "2026-11-19",
-    "end": "2026-11-20",
-    "location": "",
-    "allDay": true
-  },
-  {
     "title": "Day 1",
     "start": "2026-11-20",
     "end": "2026-11-21",
@@ -304,6 +290,13 @@
     "title": "Day 1",
     "start": "2027-01-04",
     "end": "2027-01-05",
+    "location": "",
+    "allDay": true
+  },
+  {
+    "title": "Day 2",
+    "start": "2027-01-05",
+    "end": "2027-01-06",
     "location": "",
     "allDay": true
   }

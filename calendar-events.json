@@ -327,5 +327,12 @@
     "end": "2027-01-08",
     "location": "",
     "allDay": true
+  },
+  {
+    "title": "Day 1",
+    "start": "2027-01-08",
+    "end": "2027-01-09",
+    "location": "",
+    "allDay": true
   }
 ]

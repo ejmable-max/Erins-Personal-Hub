@@ -126,13 +126,6 @@
     "allDay": true
   },
   {
-    "title": "Math SOL Remediation",
-    "start": "2026-12-08",
-    "end": "2026-12-10",
-    "location": "",
-    "allDay": true
-  },
-  {
     "title": "Day 1",
     "start": "2026-12-09",
     "end": "2026-12-10",
@@ -148,13 +141,6 @@
   },
   {
     "title": "Day 2",
-    "start": "2026-12-10",
-    "end": "2026-12-11",
-    "location": "",
-    "allDay": true
-  },
-  {
-    "title": "Testing: Math SOL",
     "start": "2026-12-10",
     "end": "2026-12-11",
     "location": "",

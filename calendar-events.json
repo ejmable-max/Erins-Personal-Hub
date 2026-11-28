@@ -306,5 +306,12 @@
     "end": "2027-01-12",
     "location": "",
     "allDay": true
+  },
+  {
+    "title": "Day 1",
+    "start": "2027-01-12",
+    "end": "2027-01-13",
+    "location": "",
+    "allDay": true
   }
 ]
